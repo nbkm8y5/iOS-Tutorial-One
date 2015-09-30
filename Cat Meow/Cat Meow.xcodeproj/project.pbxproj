@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		642D0BDB1BBAEE8D0009EF03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 642D0BDA1BBAEE8D0009EF03 /* main.m */; };
+		642D0BDE1BBAEE8D0009EF03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 642D0BDD1BBAEE8D0009EF03 /* AppDelegate.m */; };
+		642D0BE11BBAEE8D0009EF03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642D0BE01BBAEE8D0009EF03 /* ViewController.m */; };
+		642D0BE41BBAEE8D0009EF03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642D0BE21BBAEE8D0009EF03 /* Main.storyboard */; };
+		642D0BE61BBAEE8D0009EF03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642D0BE51BBAEE8D0009EF03 /* Images.xcassets */; };
+		642D0BE91BBAEE8D0009EF03 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642D0BE71BBAEE8D0009EF03 /* LaunchScreen.xib */; };
+		642D0BF51BBAEE8D0009EF03 /* Cat_MeowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 642D0BF41BBAEE8D0009EF03 /* Cat_MeowTests.m */; };
+		642D0BFF1BBAF8880009EF03 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 642D0BFE1BBAF8880009EF03 /* cat.jpg */; };
+		642D0C011BBB15CE0009EF03 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642D0C001BBB15CE0009EF03 /* AudioToolbox.framework */; };
+		642D0C091BBB58F40009EF03 /* cat_meow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 642D0C081BBB58F40009EF03 /* cat_meow.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		642D0BEF1BBAEE8D0009EF03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 642D0BCD1BBAEE8D0009EF03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 642D0BD41BBAEE8D0009EF03;
+			remoteInfo = "Cat Meow";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		642D0BD51BBAEE8D0009EF03 /* Cat Meow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat Meow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		642D0BD91BBAEE8D0009EF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		642D0BDA1BBAEE8D0009EF03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		642D0BDC1BBAEE8D0009EF03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		642D0BDD1BBAEE8D0009EF03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		642D0BDF1BBAEE8D0009EF03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		642D0BE01BBAEE8D0009EF03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		642D0BE31BBAEE8D0009EF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		642D0BE51BBAEE8D0009EF03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		642D0BE81BBAEE8D0009EF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		642D0BEE1BBAEE8D0009EF03 /* Cat MeowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat MeowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		642D0BF31BBAEE8D0009EF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		642D0BF41BBAEE8D0009EF03 /* Cat_MeowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat_MeowTests.m; sourceTree = "<group>"; };
+		642D0BFE1BBAF8880009EF03 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
+		642D0C001BBB15CE0009EF03 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		642D0C081BBB58F40009EF03 /* cat_meow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat_meow.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		642D0BD21BBAEE8D0009EF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642D0C011BBB15CE0009EF03 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642D0BEB1BBAEE8D0009EF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		642D0BCC1BBAEE8D0009EF03 = {
+			isa = PBXGroup;
+			children = (
+				642D0C001BBB15CE0009EF03 /* AudioToolbox.framework */,
+				642D0BD71BBAEE8D0009EF03 /* Cat Meow */,
+				642D0BF11BBAEE8D0009EF03 /* Cat MeowTests */,
+				642D0BD61BBAEE8D0009EF03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		642D0BD61BBAEE8D0009EF03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				642D0BD51BBAEE8D0009EF03 /* Cat Meow.app */,
+				642D0BEE1BBAEE8D0009EF03 /* Cat MeowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		642D0BD71BBAEE8D0009EF03 /* Cat Meow */ = {
+			isa = PBXGroup;
+			children = (
+				642D0BDC1BBAEE8D0009EF03 /* AppDelegate.h */,
+				642D0BDD1BBAEE8D0009EF03 /* AppDelegate.m */,
+				642D0BDF1BBAEE8D0009EF03 /* ViewController.h */,
+				642D0BE01BBAEE8D0009EF03 /* ViewController.m */,
+				642D0BE21BBAEE8D0009EF03 /* Main.storyboard */,
+				642D0BE51BBAEE8D0009EF03 /* Images.xcassets */,
+				642D0BE71BBAEE8D0009EF03 /* LaunchScreen.xib */,
+				642D0BD81BBAEE8D0009EF03 /* Supporting Files */,
+			);
+			path = "Cat Meow";
+			sourceTree = "<group>";
+		};
+		642D0BD81BBAEE8D0009EF03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				642D0C081BBB58F40009EF03 /* cat_meow.mp3 */,
+				642D0BFE1BBAF8880009EF03 /* cat.jpg */,
+				642D0BD91BBAEE8D0009EF03 /* Info.plist */,
+				642D0BDA1BBAEE8D0009EF03 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		642D0BF11BBAEE8D0009EF03 /* Cat MeowTests */ = {
+			isa = PBXGroup;
+			children = (
+				642D0BF41BBAEE8D0009EF03 /* Cat_MeowTests.m */,
+				642D0BF21BBAEE8D0009EF03 /* Supporting Files */,
+			);
+			path = "Cat MeowTests";
+			sourceTree = "<group>";
+		};
+		642D0BF21BBAEE8D0009EF03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				642D0BF31BBAEE8D0009EF03 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		642D0BD41BBAEE8D0009EF03 /* Cat Meow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 642D0BF81BBAEE8D0009EF03 /* Build configuration list for PBXNativeTarget "Cat Meow" */;
+			buildPhases = (
+				642D0BD11BBAEE8D0009EF03 /* Sources */,
+				642D0BD21BBAEE8D0009EF03 /* Frameworks */,
+				642D0BD31BBAEE8D0009EF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cat Meow";
+			productName = "Cat Meow";
+			productReference = 642D0BD51BBAEE8D0009EF03 /* Cat Meow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		642D0BED1BBAEE8D0009EF03 /* Cat MeowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 642D0BFB1BBAEE8D0009EF03 /* Build configuration list for PBXNativeTarget "Cat MeowTests" */;
+			buildPhases = (
+				642D0BEA1BBAEE8D0009EF03 /* Sources */,
+				642D0BEB1BBAEE8D0009EF03 /* Frameworks */,
+				642D0BEC1BBAEE8D0009EF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				642D0BF01BBAEE8D0009EF03 /* PBXTargetDependency */,
+			);
+			name = "Cat MeowTests";
+			productName = "Cat MeowTests";
+			productReference = 642D0BEE1BBAEE8D0009EF03 /* Cat MeowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		642D0BCD1BBAEE8D0009EF03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Rolando Moreno";
+				TargetAttributes = {
+					642D0BD41BBAEE8D0009EF03 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					642D0BED1BBAEE8D0009EF03 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 642D0BD41BBAEE8D0009EF03;
+					};
+				};
+			};
+			buildConfigurationList = 642D0BD01BBAEE8D0009EF03 /* Build configuration list for PBXProject "Cat Meow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 642D0BCC1BBAEE8D0009EF03;
+			productRefGroup = 642D0BD61BBAEE8D0009EF03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				642D0BD41BBAEE8D0009EF03 /* Cat Meow */,
+				642D0BED1BBAEE8D0009EF03 /* Cat MeowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		642D0BD31BBAEE8D0009EF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642D0BE41BBAEE8D0009EF03 /* Main.storyboard in Resources */,
+				642D0BE91BBAEE8D0009EF03 /* LaunchScreen.xib in Resources */,
+				642D0BFF1BBAF8880009EF03 /* cat.jpg in Resources */,
+				642D0C091BBB58F40009EF03 /* cat_meow.mp3 in Resources */,
+				642D0BE61BBAEE8D0009EF03 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642D0BEC1BBAEE8D0009EF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		642D0BD11BBAEE8D0009EF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642D0BE11BBAEE8D0009EF03 /* ViewController.m in Sources */,
+				642D0BDE1BBAEE8D0009EF03 /* AppDelegate.m in Sources */,
+				642D0BDB1BBAEE8D0009EF03 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642D0BEA1BBAEE8D0009EF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642D0BF51BBAEE8D0009EF03 /* Cat_MeowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		642D0BF01BBAEE8D0009EF03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 642D0BD41BBAEE8D0009EF03 /* Cat Meow */;
+			targetProxy = 642D0BEF1BBAEE8D0009EF03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		642D0BE21BBAEE8D0009EF03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				642D0BE31BBAEE8D0009EF03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		642D0BE71BBAEE8D0009EF03 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				642D0BE81BBAEE8D0009EF03 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		642D0BF61BBAEE8D0009EF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		642D0BF71BBAEE8D0009EF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		642D0BF91BBAEE8D0009EF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cat Meow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		642D0BFA1BBAEE8D0009EF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cat Meow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		642D0BFC1BBAEE8D0009EF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cat MeowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cat Meow.app/Cat Meow";
+			};
+			name = Debug;
+		};
+		642D0BFD1BBAEE8D0009EF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cat MeowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cat Meow.app/Cat Meow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		642D0BD01BBAEE8D0009EF03 /* Build configuration list for PBXProject "Cat Meow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				642D0BF61BBAEE8D0009EF03 /* Debug */,
+				642D0BF71BBAEE8D0009EF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		642D0BF81BBAEE8D0009EF03 /* Build configuration list for PBXNativeTarget "Cat Meow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				642D0BF91BBAEE8D0009EF03 /* Debug */,
+				642D0BFA1BBAEE8D0009EF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		642D0BFB1BBAEE8D0009EF03 /* Build configuration list for PBXNativeTarget "Cat MeowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				642D0BFC1BBAEE8D0009EF03 /* Debug */,
+				642D0BFD1BBAEE8D0009EF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 642D0BCD1BBAEE8D0009EF03 /* Project object */;
+}

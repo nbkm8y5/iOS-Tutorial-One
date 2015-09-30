@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cat Meow" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rw2-GR-xpH">
+                                <rect key="frame" x="261" y="126.5" width="79" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="A9j-vb-HoF">
+                                <rect key="frame" x="132" y="168" width="337" height="264"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="337" id="Vth-dn-iQm"/>
+                                    <constraint firstAttribute="height" constant="264" id="krG-rS-zI6"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAv-rD-EbX">
+                                <rect key="frame" x="279" y="457" width="42" height="30"/>
+                                <state key="normal" title="Meow">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="PlayButtonSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ulP-iH-GAw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JAv-rD-EbX" secondAttribute="bottom" constant="113" id="JEh-dU-Tla"/>
+                            <constraint firstItem="JAv-rD-EbX" firstAttribute="top" secondItem="A9j-vb-HoF" secondAttribute="bottom" constant="25" id="LlD-XG-y0o"/>
+                            <constraint firstItem="A9j-vb-HoF" firstAttribute="centerX" secondItem="Rw2-GR-xpH" secondAttribute="centerX" id="jbt-yR-LNR"/>
+                            <constraint firstAttribute="centerX" secondItem="JAv-rD-EbX" secondAttribute="centerX" id="ulr-PK-q1m"/>
+                            <constraint firstItem="A9j-vb-HoF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vsz-d8-s2B"/>
+                            <constraint firstItem="A9j-vb-HoF" firstAttribute="top" secondItem="Rw2-GR-xpH" secondAttribute="bottom" constant="21" id="xYs-uR-55Y"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cat.jpg" width="632" height="475"/>
+    </resources>
+</document>
