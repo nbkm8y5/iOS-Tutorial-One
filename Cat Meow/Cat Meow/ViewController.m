@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
     
     //Basically create a URL in the app for the sound file.
-    NSURL * SoundURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"cat_meow" ofType:@"mp3" ]];
+    NSURL * SoundURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"bruh" ofType:@"mp3" ]];
     //Take that SoundURL and link it to method in header file.
     AudioServicesCreateSystemSoundID((__bridge CFURLRef)SoundURL, &PlaySoundID);
     
